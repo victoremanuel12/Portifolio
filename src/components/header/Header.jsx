@@ -15,7 +15,7 @@ export default function Header() {
         <div className="myPicture">
           <img src={FotoVictor} alt="" />
         </div>
-        <a href="#contact" className='scroll__down'></a>
+        <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
     </header>
   )

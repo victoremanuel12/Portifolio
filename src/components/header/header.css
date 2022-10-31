@@ -46,3 +46,29 @@ header{
    overflow: hidden;
    padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+/* ======= myPicture =======*/
+.scroll__down{
+   position: absolute;
+   right:  -2.3rem;
+   bottom: 5rem;
+   transform:  rotate(90deg);
+   font-weight: 300;
+   font-size: 0.9rem;
+}
+/* ======= MEDIA QUERIES ======== */
+@media screen and (max-width:1024px){
+   .container{
+      height: 68vh;
+   }
+   header{
+      height: 120vh;
+   }
+}
+@media screen and (max-width:600px){
+   header{
+      height: 130vh;
+   }
+   .header__socials , .scroll__down{
+      display: none;
+   }
+}
